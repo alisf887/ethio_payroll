@@ -1,0 +1,30 @@
+{
+  "name": "ethiopian-payroll",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "decimal.js": "^10.6.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.8.2",
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.9"
+  },
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
